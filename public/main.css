@@ -1,0 +1,168 @@
+body {
+  background: #a2bf74;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f6f7f8, #a1a1ca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar-brand {
+  font-family: 'Spicy Rice', cursive;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  text-transform:capitalize;
+  font-family: 'Spicy Rice', cursive;
+}
+
+header img {
+  width: 80%;
+}
+
+.nav-main {
+  height: 90px;
+  background-color: #5ab375c9;
+  display: grid;
+  grid-template-columns: 1fr ;
+}
+
+nav .frase h3 {
+  color: #070707;
+  text-align: center;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+nav  {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+  background-color: #3b6978;
+}
+
+nav .nav-logo-container {
+  margin-left: 50px;
+}
+
+nav .nav-logo-container img {
+  width: 130px;
+  margin-top: 5px;
+  border-radius: 155px;
+}
+nav .profile-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+ }
+nav .profile-link a {
+  color: black;
+  border-bottom: 1px solid black;
+  font-family: 'Abel', monospace;
+}
+
+.home-main {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: 900px;
+  background-image: url('../img/Cover.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-main section {
+  display: grid;
+  grid-column: 2;
+  justify-items: center;
+  height: 350px;
+  margin-top: 80px;
+}
+
+.home-main-text {
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: 700px;
+  letter-spacing: 10px;
+  color: black;
+  text-align: center;
+  color: black;
+}
+.home-main-button {
+  width: 110px;
+  height: 50px;
+  background: #84a9ac;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 50px;
+  border-radius: 5px;
+  font-family: 'Abel', monospace;
+  color: black;
+}
+
+/* Contenedor de imagen */
+
+.contenedor-imagen {
+	height: 100vh;
+}
+
+.contenedor-imagen img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+
+/* * ============================== */
+/* * ============ MAIN ============ */
+/* * ============================== */
+
+main {
+	min-height: 100vh;
+}
+
+main .contenido p {
+	margin-bottom: 20px;
+	line-height: 30px;
+	color: #525151;
+}
+
+main .contenido .titulo {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	padding-top: 40px;
+}
+
+main .contenido .fecha {
+	font-size: 14px;
+	color: #B5B5B5;
+}
+
+/* * ============================== */
+/* * ============ ASIDE =========== */
+/* * ============================== */
+
+aside {
+	min-width: 30%;
+	margin: 40px 20px 20px 0;
+	height: 100%;
+	background: #1D2F3D;
+	padding: 20px;
+	border-radius: 3px;
+}
+
+aside .titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #f2f2f2;
+}
+
+aside .indice a {
+	display: block;
+	margin-bottom: 10px;
+	color: #FFCD48;
+}
+
