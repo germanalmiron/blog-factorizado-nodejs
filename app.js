@@ -1,7 +1,7 @@
 // Configuración inicial
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 // Motor de plantilla
 const hbs = require('hbs');
@@ -38,7 +38,7 @@ app.get('/contacto', function (req, res) {
       })
   });
 
-  // Iniciar servidor
-app.listen(port, () => {
-    console.log(`Escuhando en el puerto http://localhost:${port}`);
-  });
+// Iniciar servidor
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
